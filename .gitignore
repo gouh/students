@@ -1,0 +1,76 @@
+﻿#This .gitignore file should be placed at the root of your repository.
+
+#-------------------------------------------------
+# Ignore these directories
+#-------------------------------------------------
+[TestResults]
+[Bb]in
+[Oo]bj
+[TestResults]
+[Dd]ebug*
+[Rr]elease*
+x64
+x86
+build/
+bld/
+[Bb]in
+[Oo]bj
+[Ll]og/
+
+#-------------------------------------------------
+# Ignore these files
+#-------------------------------------------------
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.pidb
+*.aps
+*.bak
+*.cache
+*.dll
+*.extensibility.log
+*.exe
+*.log
+*.ipch
+*- [Rr]eference*
+*.winmd
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.jfm
+*.appx
+*.appxbundle
+*.appxproj
+*.[Cc]ache
+*.VC.db
+*.VC.VC.opendb
+
+#-------------------------------------------------
+# Ignore the packages directory
+#-------------------------------------------------
+**/[Pp]ackages/*
+
+#-------------------------------------------------
+# Don't ignore these directories
+#-------------------------------------------------
+!/**/[Pp]ackages/build/
+
+#-------------------------------------------------
+# Other
+#-------------------------------------------------
+*.DotSettings.user
+
+#-------------------------------------------------
+# Rider / IntelliJ / JetBrains
+#-------------------------------------------------
+.idea/
+*.iml
+*.iws
+/out/
+
+#-------------------------------------------------
+# Visual Studio Code
+#-------------------------------------------------
+.vscode/
